@@ -1,5 +1,3 @@
-mod store;
-mod types;
+mod kv_store;
 
-pub use store::KvStore;
-pub use types::Value; 
+pub use kv_store::KvStore; 
